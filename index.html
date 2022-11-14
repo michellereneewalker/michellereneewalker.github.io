@@ -10,6 +10,9 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="shortcut icon" href="images/icons8-location-pin-those-icons-flat-16.png">
+
+
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -20,8 +23,12 @@
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
-							<!-- <span class="icon fa-gem"></span> -->
-							<span class="fa-solid fa-location-pin"></span>
+							<!-- <span class="icon fa-solid fa-location-dot"></span> -->
+							<!-- <i class="icon fa-map"></i> -->
+							<!-- <i class="icon fal fa-gem"></i> -->
+							<!-- <i class="icon far fa-globe"></i> -->
+							<!-- <i class="fal fa-dot-circle"></i> -->
+							<span class="logo"><img src="images/icons8-location-pin-those-icons-flat-96.png" alt="" /></span>
 						</div>
 						<div class="content">
 							<div class="inner">
@@ -49,9 +56,9 @@
 							<article id="intro">
 								<h2 class="major">Intro</h2>
 								<span class="image main"><img src="images/cmc.jpg" alt="" /></span>
-								<p>The Colorado Mountain college Leadville campus sits above 10,000 ft in elevation, and is surrounded by high alpine peakes. I am lucky to be persuing my GIS certification in this beautiful location.</p>  
-								<p>As of right now, I am one class away (remote sensing) from completeing my certificate.  I will take that class this spring semster.  This certificate will build upon my prior experince as a Mechanical Engineer, and I hope to find work using the skills I've accuired at <a href=https://coloradomtn.edu/programs/gis/> CMC!</a></p>
-								<p>Please see my <a href="images/resume2022.pdf">resume</a> to lean more about my prior work experience.</p>
+								<p>The Colorado Mountain College Leadville campus sits above 10,000 ft in elevation, and is surrounded by high alpine peaks. I am lucky to be pursuing my GIS certification in this beautiful location.</p>  
+								<p>As of right now, I am one class away (remote sensing) from completing my certificate.  I will take that class this spring semester.  This certificate will build upon my prior experience as a Mechanical Engineer, and I hope to find work using the skills I've acquired at <a href=https://coloradomtn.edu/programs/gis/> CMC!</a></p>
+								<p>Please see my <a href="images/resume2022.pdf">resume</a> to learn more about my prior work experience.</p>
 							</article>
 
 						<!-- Work -->
@@ -63,13 +70,17 @@
 								
 								
 								<span class="image main"><img src="images/play.jpg" alt="" /></span>
-								<p>This project was a collaboration with the <a href=https://www.colorado.com/other-tourism-organizations/leadville-and-twin-lakes-visitor-center>Leadville Visitor center</a>. I transformed data gathered in thier guest log book, and data obtained by the Write Brain West Survey, into a map showing general activity locations.  I also depicted the relative popularity of each tourist activity by linking the symbology to the survey data.</P>		
-								<p>Data was provided by the Leadville Visitor's Center and the Write Brain trust. <br> I made the basemap using by transforming elevation data with the hillshade tool in ARCgis pro.</p>
+								<p>This project was a collaboration with the <a href=https://www.colorado.com/other-tourism-organizations/leadville-and-twin-lakes-visitor-center>Leadville Visitor Center</a>. I transformed data gathered in their guest log book, and data obtained by the Write Brain West Survey, into a map showing general activity locations.  I also depicted the relative popularity of each tourist activity by linking the symbology to the survey data.</P>		
+								<p>Data was provided by the Leadville Visitor Center and the Write Brain Trust. <br> I made the basemap using by transforming elevation data with the hillshade tool in ArcGIS pro.</p>
 								
 								
 								<span class="image main"><img src="images/copop.jpg" alt="" /></span>
-								<p>This project was an exercise in Spatial Statistics.  Specifically I was determining the mean center of Colorado's population, and mapping it to demonstrate a projected shift to the north.  I also calculated the population dispersion, which did not change over the years I analysed.</p>
-								<p>This analysis was possible using population projections from <a href=https://data.colorado.gov/Demographics/Population-Projections-in-Colorado/q5vp-adf3>The Colorado information Marketplace</a>.</p>
+								<p>This project was an exercise in Spatial Statistics.  Specifically, I was determining the mean center of Colorado's population, and mapping it to demonstrate a projected shift to the north.  I also calculated the population dispersion, which did not change over the years I analyzed.</p>
+								<p>This analysis was possible using population projections from <a href=https://data.colorado.gov/Demographics/Population-Projections-in-Colorado/q5vp-adf3>The Colorado Information Marketplace</a>.</p>
+							
+								<span class="image main"><img src="images/adirondack100.jpg" alt="" /></span>
+								<p>This is a watershed analysis of New York's Adirondack State Park.  A watershed is the upslope area that contributes flow to a common outlet, like a river. My map colorized the different watersheds so that their boundaries, or drainage divides are easily discernable.</p>
+								<p>This project started with a DEM of the park area, then involed a large amount of data processing with ArcGIS pro's geoprocessing tools. In order, the tools used were: Flow Direction, Sink, Fill, Flow Direction (again), Flow Accumulation, Con, Stream Link, and finally- Watershed.</p></p>
 							
 							</article>
 
