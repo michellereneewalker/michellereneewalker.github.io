@@ -487,6 +487,37 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	background-clip: padding-box;
 	}
 
+/* Adding some timeline slider customization stuff that may of may not work */
+L.Control.TimeLineSlider = L.Control.extend({
+
+    options: {
+        position: 'bottomright',
+        timelineItems: ["Today", "Tomorrow", "The Next Day"],
+
+        changeMap: function({label, value, map}) {
+            console.log("You are not using the value or label from the timeline to change the map.");
+        },
+        extraChangeMapParams: {},
+        initializeChange: true,
+        
+        thumbHeight: "4.5px",
+        labelWidth: "80px",
+        betweenLabelAndRangeSpace: "20px",
+
+        labelFontSize: "14px",
+        activeColor: "#37adbf",
+        inactiveColor: "#8e8e8e",
+        
+        backgroundOpacity: 0.75,
+        backgroundColor: "#ffffff",
+
+        topBgPadding: "10px",
+        bottomBgPadding: "0px",
+        rightBgPadding: "30px",
+        leftBgPadding: "30px",
+
+    },
+	/* nope, must no tbe the right place to put this */
 
 /* popup */
 
