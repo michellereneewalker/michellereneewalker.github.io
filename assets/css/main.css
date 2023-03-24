@@ -625,7 +625,7 @@ input, select, textarea {
 		}
 
 		.icon:before {
-			line-height: inherit;
+			line-height: 1.5rem;
 		}
 
 		.icon.solid:before {
