@@ -25,6 +25,18 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
+	
+figcaption {
+	/* border: 1px solid blue; */
+	font: inherit;
+	font-size: 80%;
+	text-shadow: none;
+	color: white;
+	text-align: right;
+	height: auto;
+	word-wrap: break-word;
+	width:inherit;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -699,6 +711,14 @@ input, select, textarea {
 			display: block;
 			margin: 2.5rem 0;
 			width: 100%;
+			/* position: absolute; */
+			/* top: 0; */
+			/* left: 0; */
+			/* width: 100%; */
+			/* background-color: rgba(0,0,0,0.5); */
+			/* color: white; */
+			/* text-align: center; */
+			/* padding: 10px; */
 		}
 
 			.image.main img {
